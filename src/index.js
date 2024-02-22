@@ -1,25 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-// import App from './App';
 import reportWebVitals from './reportWebVitals';
-import {Header} from "./Header/Header";
-import {Footer} from "./Footer/Footer";
-import {MainContent} from "./Main/Main";
+import {App} from "./components/App";
 
 
-function Page() {
-    return (
-        <div>
-            <Header />
-            <MainContent />
-            <Footer />
-        </div>
-    )
-}
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-    <Page/>
+    <App/>
 );
 
 // If you want to start measuring performance in your app, pass a function

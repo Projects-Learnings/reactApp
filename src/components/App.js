@@ -23,3 +23,19 @@
 // }
 //
 // export default App;
+import {Nav} from "./Nav";
+import {MainContent} from "./Main";
+import {Footer} from "./Footer";
+//import React from "@types/react";
+
+export function App() {
+    return (
+        <div>
+            <Nav />
+            <MainContent />
+            <Footer />
+        </div>
+    )
+}
+
+export default App;
