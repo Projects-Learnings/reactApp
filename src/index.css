@@ -75,9 +75,10 @@ body{
   text-align:justify;
   padding-left: 27px;
   padding-block: 0px;
-  background-image: url('images/reactjs-icon 2.png');
+  background-image: url('./images/reactjs-icon 2.png');
   background-repeat: no-repeat;
-  background-position: center right;
+  /*background-position: center right;*/
+  background-position: right 75%;
 
 }
 .MainContent >h1{
