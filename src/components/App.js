@@ -30,7 +30,7 @@ import {Footer} from "./Footer";
 
 export function App() {
     return (
-        <div>
+        <div className="MainPage">
             <Nav />
             <MainContent />
             <Footer />

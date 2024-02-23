@@ -5,12 +5,12 @@ export function Nav() {
     return (
         <header className="Header">
             <nav className="nav">
-                <img src={Logo} alt="react logo" className="logo" />
-                <ul className="nav-items">
-                    <li>Pricing</li>
-                    <li>About</li>
-                    <li>Contact</li>
-                </ul>
+                <div className="logoBox">
+                    <img src={Logo} alt="react logo" className="logo"/>
+                    <h3 className="reactFacts">ReactFacts</h3>
+                </div>
+
+               <h4>React Course - Project 1</h4>
             </nav>
         </header>
     )

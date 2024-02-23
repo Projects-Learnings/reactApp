@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -15,24 +18,45 @@ code {
   list-style: none;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  /*justify-content: space-between;*/
 }
 .nav-items >li{
   justify-items: normal;
   padding: 10px;
 
 }
+.logoBox{
+  font-family: Inter;
+  color:#61DAFB;
+  display: flex;
+  height: 29px;
+  object-fit: contain;
+  align-items: center;
+
+}
 .nav{
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: #21222A;
+}
+.nav >h4{
+  font-family: Inter;
+  font-weight: 600;
+  color: #DEEBF8;
+}
+.reactFacts{
+  object-fit: contain;
 }
 .logo{
-  width:60px
+  display: flex;
+  width:26px;
+
 }
+
 .Header{
   border-bottom-color: lightgray;
-  border-bottom-style: solid;
+  /*border-bottom-style: solid;*/
 }
 .Footer{
   position: absolute;
@@ -41,11 +65,92 @@ code {
   width: 100%;
   text-align: center;
   border-top-color: lightgray;
-  border-top-style: solid;
+  color:#FFFFFF;
+  /*border-top-style: solid;*/
+}
+body{
+  background: #282D35;
 }
 .MainContent{
-  text-align: center;
+  text-align:justify;
+  padding-left: 27px;
+  padding-block: 0px;
+  background-image: url('images/reactjs-icon 2.png');
+  background-repeat: no-repeat;
+  background-position: center right;
+
 }
-.MainContent >ol{
-  list-style: none;
+.MainContent >h1{
+  color: #FFFFFF;
+  width: 100%;
+  letter-spacing: 0.05em;
+
 }
+.MainContent > ul >li{
+  /*!*line-height: 50px;*!*/
+  /*padding-block: 20px;*/
+
+
+}
+.MainContent>ul>li::marker {
+  content: '. ';
+  font-size: 3em;
+  color: #61DAFB;
+}
+.MainContent{
+  /*display: flex;*/
+  /*justify-content: space-between;*/
+  align-items: center;
+
+}
+.MainContent >ul{
+  style:none;
+  /*padding-left: 51px;*/
+
+
+  color:#FFFFFF;
+}
+
+
+.MainContent >img{
+  /*width: 263px;*/
+  height: 263px;
+  top: 198px;
+  left: 418px;
+  /*padding: 20.13px, 5.61px, 20.13px, 5.62px;*/
+
+}
+
+
+
+details {
+  border: 2px solid #aaa;
+  border-radius: 2px;
+  padding: 0.5em 0.5em 0;
+}
+
+summary {
+  font-weight: bold;
+  margin: -0.5em -0.5em 0;
+  padding: 0.5em;
+}
+summary::marker{
+  /* content: '> '; */
+  font-size: 1em;
+  color: #61DAFB;
+}
+
+details[open] {
+  padding: 0.5em;
+}
+
+details[open] summary {
+  border-bottom: 2px solid #aaa;
+  margin-bottom: 0.5em;
+}
+
+
+
+
+
+
